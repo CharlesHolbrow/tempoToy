@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 84.0, 44.0, 1196.0, 705.0 ],
+		"rect" : [ 41.0, 44.0, 1239.0, 710.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.501961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,6 +30,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-148",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 76.0, 385.0, 100.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.501961, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 60.0,
@@ -42,7 +54,7 @@
 					"patching_rect" : [ 1836.918335, 567.616882, 673.0, 141.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 9.46825, 1.648737, 190.0, 141.0 ],
+					"presentation_rect" : [ 9.46825, 1.648737, 209.0, 141.0 ],
 					"text" : "tempo \ntoy",
 					"textcolor" : [ 0.0, 1.0, 0.0, 1.0 ]
 				}
@@ -240,7 +252,7 @@
 					"patching_rect" : [ 1411.299927, 68.199997, 176.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 637.61853, 60.113712, 176.0, 69.0 ],
+					"presentation_rect" : [ 665.902893, 58.113712, 176.0, 69.0 ],
 					"text" : ": DON'T RECORD\n: TO CH.1\n: TO CH.2\n: TO CH.3",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -261,9 +273,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1739.37439, 125.15657, 36.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 622.214111, 62.113712, 196.404297, 66.0 ],
+					"presentation_rect" : [ 650.498474, 60.113712, 196.404297, 66.0 ],
 					"size" : 4,
-					"value" : 0
+					"value" : 3
 				}
 
 			}
@@ -1807,7 +1819,7 @@
 					"RegionEditor:vZoom" : 4.0,
 					"Score:quantization" : 8,
 					"Score:scrolling" : 65536,
-					"bpm" : 78.0,
+					"bpm" : 127.0,
 					"id" : "obj-192",
 					"loop" : 1,
 					"loopDuration" : 4.0,
@@ -1820,8 +1832,8 @@
 						"noteFun20002" : [ "hZoom", 4.0 ],
 						"noteFun20003" : [ "vZoom", 4.0 ],
 						"noteFun20004" : [ "loop", 1, 1.0, 4.0 ],
-						"noteFun20005" : [ "playheadPosition", 3.200095 ],
-						"noteFun20006" : [ "newTempoEvent", "bpm", 1.0, 78.0 ],
+						"noteFun20005" : [ "playheadPosition", 4.212426 ],
+						"noteFun20006" : [ "newTempoEvent", "bpm", 1.0, 127.0 ],
 						"noteFun20007" : [ "newTempoEvent", "timeSignature", 1.0, 4, 4, 0, 0, 0 ]
 					}
 ,
@@ -3725,6 +3737,8 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
 					"patching_rect" : [ 193.600784, 161.626923, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 407.906738, 143.911316, 100.0, 20.0 ],
 					"text" : "transport"
 				}
 
@@ -3957,7 +3971,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1745.090698, 77.165077, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 789.111938, 21.714006, 21.295063, 21.295063 ]
+					"presentation_rect" : [ 817.396301, 19.714005, 21.295063, 21.295063 ]
 				}
 
 			}
@@ -4048,7 +4062,7 @@
 					"RegionEditor:vZoom" : 4.0,
 					"Score:quantization" : 8,
 					"Score:scrolling" : 65536,
-					"bpm" : 117.0,
+					"bpm" : 127.0,
 					"id" : "obj-20",
 					"loop" : 1,
 					"loopDuration" : 4.0,
@@ -4061,8 +4075,8 @@
 						"noteFun20002" : [ "hZoom", 4.0 ],
 						"noteFun20003" : [ "vZoom", 4.0 ],
 						"noteFun20004" : [ "loop", 1, 1.0, 4.0 ],
-						"noteFun20005" : [ "playheadPosition", 2.399269 ],
-						"noteFun20006" : [ "newTempoEvent", "bpm", 1.0, 117.0 ],
+						"noteFun20005" : [ "playheadPosition", 2.166531 ],
+						"noteFun20006" : [ "newTempoEvent", "bpm", 1.0, 127.0 ],
 						"noteFun20007" : [ "newTempoEvent", "timeSignature", 1.0, 4, 4, 0, 0, 0 ]
 					}
 ,
@@ -4667,7 +4681,7 @@
 					"RegionEditor:vZoom" : 4.0,
 					"Score:quantization" : 8,
 					"Score:scrolling" : 65536,
-					"bpm" : 78.0,
+					"bpm" : 127.0,
 					"id" : "obj-1",
 					"loop" : 1,
 					"loopDuration" : 4.0,
@@ -4680,8 +4694,8 @@
 						"noteFun20002" : [ "hZoom", 4.0 ],
 						"noteFun20003" : [ "vZoom", 4.0 ],
 						"noteFun20004" : [ "loop", 1, 1.0, 4.0 ],
-						"noteFun20005" : [ "playheadPosition", 3.188569 ],
-						"noteFun20006" : [ "newTempoEvent", "bpm", 1.0, 78.0 ],
+						"noteFun20005" : [ "playheadPosition", 1.228345 ],
+						"noteFun20006" : [ "newTempoEvent", "bpm", 1.0, 127.0 ],
 						"noteFun20007" : [ "newTempoEvent", "timeSignature", 1.0, 4, 4, 0, 0, 0 ]
 					}
 ,
@@ -4907,7 +4921,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1823.666748, -7.689758, 299.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 621.718384, 15.361538, 299.0, 34.0 ],
+					"presentation_rect" : [ 650.002747, 13.361536, 299.0, 34.0 ],
 					"text" : "USB MIDI IN",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -4925,7 +4939,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1720.594116, 14.857376, 299.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.076767, 13.361536, 112.180855, 34.0 ],
+					"presentation_rect" : [ 247.076767, 13.361536, 112.180855, 34.0 ],
 					"text" : "START",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -7411,6 +7425,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
